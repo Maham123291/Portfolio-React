@@ -1,0 +1,36 @@
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-media a {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    background-color: #16a085;
+  }
+  
+  .icon {
+    font-size: 1.5em;
+  }

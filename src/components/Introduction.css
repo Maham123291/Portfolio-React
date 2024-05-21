@@ -1,0 +1,35 @@
+/* src/pages/Introduction.css */
+.introduction-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f6ff; /* Light lavender background */
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px solid #6a1b9a; /* Dark purple border */
+  object-fit: cover; /* Ensure the image fits well within the circle */
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4a148c; /* Dark purple color for the name */
+  margin-bottom: 10px;
+}
+
+.bio-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #6a1b9a; /* Medium purple text */
+  max-width: 600px;
+  padding: 0 20px;
+}

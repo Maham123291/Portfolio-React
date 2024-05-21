@@ -1,0 +1,55 @@
+/* Project.css */
+
+.projects {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-heading {
+  margin-bottom: 30px; /* Added space after the project heading */
+}
+
+.card {
+  margin-bottom: 50px; /* Increased spacing between cards */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure images cover the area without stretching */
+}
+
+.card-body {
+  background-color: #f8f8f8;
+  padding: 30px; /* Increased padding */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px; /* Increased margin bottom */
+}
+
+.card-text {
+  font-size: 18px;
+  color: #555;
+}
+
+.project-name {
+  margin-top: 15px; /* Added margin top for project name */
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}

@@ -1,0 +1,68 @@
+/* Skills.css */
+
+.skills-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f5f3ff; /* Light lavender background color for the section */
+  color: #4b4453; /* Darker purple-gray text color for better readability */
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+}
+
+.skill {
+  padding: 20px;
+  border: 1px solid #dcd0ff; /* Light purple border */
+  border-radius: 15px; /* More rounded corners */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.skill:hover {
+  transform: translateY(-10px); /* Lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.skill span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4b4453; /* Dark purple-gray color for skill titles */
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+  border-radius: 10px; /* Rounded corners for progress bar */
+  background-color: #e0e0e0; /* Light gray background for progress bar track */
+}
+
+/* Style progress bar track */
+progress::-webkit-progress-bar {
+  background-color: #f0eaff; /* Light purple background for progress bar track */
+}
+
+/* Style progress bar fill */
+progress::-webkit-progress-value {
+  background-color: #b39ddb; /* Soft purple fill color for progress bar */
+  border-radius: 10px 0 0 10px; /* Rounded corners for the fill */
+}
+
+/* Firefox style for progress bar fill */
+progress::-moz-progress-bar {
+  background-color: #b39ddb; /* Soft purple fill color for progress bar */
+  border-radius: 10px 0 0 10px; /* Rounded corners for the fill */
+}
+
+/* Improved aesthetics for h2 */
+.skills-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #4b4453; /* Darker purple-gray heading color */
+}

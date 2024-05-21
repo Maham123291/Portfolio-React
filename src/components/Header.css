@@ -1,0 +1,37 @@
+/* Header.css */
+
+nav {
+  background-color: #6a1b9a; /* Dark purple background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Align items vertically */
+}
+
+.portfolio {
+  color: #ffffff; /* White text color */
+  font-weight: bold; /* Make it bold */
+  font-size: 20px; /* Adjust font size as needed */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+li a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: #8e24aa; /* Medium purple text on hover */
+}
